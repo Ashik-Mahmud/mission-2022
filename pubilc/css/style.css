@@ -274,3 +274,46 @@ img.img-fluid.shape-p-bottom{
 
 /* Responsive Style Start Here  */
 
+@media (max-width: 1270px) {
+    .container{
+        max-width: 100%;
+        padding: 0rem 1rem;
+    }
+    .left-content h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-content{
+        flex-direction: column;
+    }
+    .hero-content .left-content ,
+     .hero-content .right-content {
+        width: 100%;
+    }
+    .left-content h1 {
+        font-size: 40px;
+    }
+
+    .mission-content,
+    .blog-content,
+    .common-content{
+        flex-direction: column;
+    }
+    .common-content .left-content ,
+     .common-content .right-content {
+        width: 100%;
+    }
+    .single-blog,
+    .single-blog img{
+        width: 100%;
+    }
+
+    img.img-fluid.shape-p-bottom {
+        bottom: -20%;
+        right: 0%;
+    }
+
+}
